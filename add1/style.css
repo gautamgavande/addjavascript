@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(71, 175, 141, 0.683);
+}
+
+#fn {
+    position: relative;
+    top: 10%;
+    left: 13%;
+    height: 30px;
+    width: 80%;
+}
+
+#sn {
+    position: relative;
+    top: 15%;
+    left: 13%;
+    height: 30px;
+    width: 80%;
+}
+
+#res {
+    position: relative;
+    top: 25%;
+    left: 13%;
+    height: 30px;
+    width: 80%;
+}
+
+#btn {
+    position: absolute;
+    top: 55%;
+    left: 13%;
+    width: 95%;
+}
+
+.b {
+    height: 30px;
+    width: 20%;
+    background-color: rgb(84, 84, 145);
+}
+
+#cal {
+    position: relative;
+    top: 2%;
+    left: 8%;
+    color: brown;
+}
+
+#calcu {
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    width: 25%;
+    background-color: rgb(188, 155, 112);
+    transform: translate(-50%, -50%);
+}
